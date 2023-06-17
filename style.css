@@ -1,0 +1,100 @@
+/* Setting generali */
+/* ----------------------------------------- */
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* ----------------------------------------- */
+
+/* Immagine di sfondo */
+/* ----------------------------------------- */
+body{
+    background-image: url("image/background.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+/* ----------------------------------------- */
+
+/* Box in trasparenza */
+/* ----------------------------------------- */
+.container{
+    background-color: rgba(0, 0, 0, 0.55);
+    max-width: 1200px;
+    min-width: 750px;
+    border-radius: 20px;
+    padding: 100px 85px;
+    margin: 32px auto;
+}
+/* ----------------------------------------- */
+
+/* HEADER style */
+/* ----------------------------------------- */
+header{
+    text-align: center;
+}
+
+.logo{
+    width: 250px;
+}
+
+header h1{
+    color:#00dd00;
+}
+/* ----------------------------------------- */
+
+/* NAV style */
+/* ----------------------------------------- */
+nav{
+    background-color: #00dd00;
+    text-align: center;
+    padding: 8px;
+}
+/* ----------------------------------------- */
+
+
+/* MAIN style */
+/* ----------------------------------------- */
+main{
+    color: white;
+}
+
+.vehicle{
+    padding: 12px 0px;
+}
+
+.vehicle>h2{
+    display: inline-block;
+}
+
+.chargeBar {
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* charge green: #1ec31e */
+.chargeBar.high{
+    background-color: #1ec31e;
+    width: 600px;
+}
+
+/* charge orange: #f5b453 */
+.chargeBar.medium{
+    background-color: #f5b453;
+    width: 350px;
+}
+
+/* charge red: #be4141 */
+.chargeBar.low{
+    background-color: #be4141;
+    width: 150px;
+}
+
+/* ----------------------------------------- */
+
+
+
+
